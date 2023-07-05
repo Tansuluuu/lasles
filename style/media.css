@@ -47,11 +47,44 @@
     .provide{
         padding: 0 10px;
     }
+
+    .btn-wrapper{
+        display: flex;
+        flex: none;
+    }
     
+    .gray-card{
+        width: 800px;
+    }
+
+    .gray-logo{
+        width: 800px;
+    }
+    
+    .img-wrapper{
+        width: 500px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+.happy-text{
+    padding: 20px 120px;
+}
 
 }
 
 @media(max-width:950px){
+    .container{
+        max-width: 500px;
+        padding: 0 20px;
+    }
+    .btn-row{
+        
+    }
+
     .button-menu{
         display: contents;
         border: none;
